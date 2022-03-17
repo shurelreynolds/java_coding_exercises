@@ -70,5 +70,4 @@ public class Exercise005Test {
         assertFalse(ex005.isPangram("the 1 qu^ck brown fox jumps over the 2 lazy dogs"));
     }
 
-
 }

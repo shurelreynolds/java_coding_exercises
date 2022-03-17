@@ -18,7 +18,7 @@ public class Exercise005 {
         input = input.toLowerCase();
 
         //check for ascii character
-        if(input.matches("^[\\p{ASCII}]"))
+        if (input.matches("^[\\p{ASCII}]"))
             return false;
 
         for (char c = 'a'; c < 'z'; c++) {
